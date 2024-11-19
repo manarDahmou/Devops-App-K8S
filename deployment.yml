@@ -12,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: nodeapp 
+        app: nodeapp
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: manardahmou/app-devops-k8s:latest  # Remplace par l'image Docker que tu as poussée
         ports:
         - containerPort: 3000
